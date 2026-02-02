@@ -2,15 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Will You Be My Valentine? 💖</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Valentine Proposal ❤️</title>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      gap: 20px;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Will you be my Valentine? 💝</h1>
+  <h1>Will you be my Valentine? 💖</h1>
 
-  <button class="yes-button" onclick="handleYesClick()">YES 💖</button>
-  <button class="no-button" onclick="handleNoClick()">NO 💔</button>
+  <div>
+    <button class="yes-button" onclick="handleYesClick()">Yes</button>
+    <button class="no-button" onclick="handleNoClick()">No</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
